@@ -179,9 +179,10 @@ set	$err	#B62753
 set	$high	#D99932
 set	$black	#000000
 set	$white	#ffffff
+set	$cream	#EFD9BE
 
 # class                 border	backgr.	text	indic	child_border
-client.focused          $light	$main	$white	$light	$light
+client.focused          $light	$main	$cream	$light	$light
 client.focused_inactive $dark	$black	$dark	$light	$dark
 client.unfocused	$dark	$black	$dark	$light	$dark
 client.urgent           $err	$err	$high	$light	$err
@@ -196,8 +197,9 @@ client.background       #ffffff
 bar {
         status_command i3status
 	colors {
+		statusline $cream
 		#			border	background	text
-		focused_workspace	$light	$main		$white
+		focused_workspace	$light	$main		$cream
 		inactive_workspace	$dark	$black		$dark
 		urgent_workspace	$err	$err		$high
 	}
