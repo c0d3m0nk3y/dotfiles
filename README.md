@@ -10,4 +10,4 @@ Terminal Emulator: rxvt-unicode
 
 Launcher: rofi
 
-Wallpaper: bestgirl (藤林杏, Fujibayashi Kyō)
+Wallpaper: Fujibayashi Kyō 藤林杏
