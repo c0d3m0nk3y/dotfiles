@@ -1,0 +1,5 @@
+217 153  50		highlight
+182  39  83		err
+ 59  48 117		dark
+111  86 152		light
+ 87  58 135		main
