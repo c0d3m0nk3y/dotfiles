@@ -1,9 +1,9 @@
 Xcursor.theme: DMZ-White
 
-URxvt.font:                xft:PragmataPro:pixelsize=16
-URxvt.boldFont:            xft:PragmataPro:pixelsize=16:bold
-URxvt.italicFont:          xft:PragmataPro:pixelsize=16:italic
-URxvt.boldItalicFont:      xft:PragmataPro:pixelsize=16:bold:italic
+URxvt.font:                xft:Liberation Mono:pixelsize=16
+URxvt.boldFont:            xft:Liberation Mono:pixelsize=16:bold
+URxvt.italicFont:          xft:Liberation Mono:pixelsize=16:italic
+URxvt.boldItalicFont:      xft:Liberation Mono:pixelsize=16:bold:italic
 URxvt.letterSpace:         -1
 
 *background: #232C31
