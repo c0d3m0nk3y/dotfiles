@@ -41,9 +41,10 @@ bindsym $mod+Shift+q kill
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+d exec rofi -show run
+bindsym $mod+d exec rofi -show run -lines 8 -eh 2 -font "Liberation Sans 12" -width 60 -padding 40 -opacity "85" -bw 0
 
-# change focus
+
+# change focusD
 bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus up
@@ -168,13 +169,12 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+exec_always compton -f
 exec xset s off -dpms
 exec_always xrdb ~/.Xresources
 exec_always feh --bg-scale /home/user/Wallpaper.png
 exec_always srm ~/.thumbails
 exec_always srm ~/.cache/thumbnails
-exec_always srm ~/.zsh_history
-exec_always srm ~/.histfile
 
 
 set	$main	#573A87
